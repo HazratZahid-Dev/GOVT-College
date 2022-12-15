@@ -1,0 +1,39 @@
+.main1{
+    width: 100%;
+    height: 15rem;
+    margin-top: 15rem;
+    background-color: rgb(1, 1, 38);
+    padding: 20px;
+    
+}
+.footer-second{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(6, 2, 25);
+    color: white;
+    text-align: center;
+}
+.footer-para{
+    padding: 20px;
+}
+span{
+    color: orange;
+    letter-spacing: 2px;
+}
+@media (max-width:768px)
+{
+    .main1{
+        /* width: 20rem; */
+         height: 30rem; 
+        margin: auto;
+    }
+}
+@media (max-width:992px)
+{
+    .main1{
+        /* width: 20rem; */
+         height: 30rem; 
+        margin: auto;
+        font-size: 14px;
+    }
+}

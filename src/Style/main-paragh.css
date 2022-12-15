@@ -1,0 +1,197 @@
+.main{
+    /* width: 70rem; */
+     /* height: 50rem;  */
+    background-color: rgb(193, 193, 193);
+     /* margin: auto; 
+    margin-top: 14rem; */
+    
+}
+.inner-div{
+    /* width: 66rem; */
+     height: 11rem; 
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-left: 7px solid rgb(255, 183, 2);
+    margin-bottom: 0px;
+
+    
+}
+
+.inner-div1{
+    /* width: 66rem; */
+     height: 4rem; 
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-left: 7px solid rgb(255, 183, 2);
+    margin-bottom: 0px;
+
+    
+}
+
+/* .main h5{
+
+} */
+
+.inner-div2{
+    /* width: 66rem; */
+     height: 4rem; 
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    border-left: 7px solid rgb(255, 183, 2);
+    margin-bottom: 0px;
+
+    
+}
+
+
+.top{
+    
+    
+    margin-left: 1rem;
+   padding: 20px;
+
+
+    
+}
+@media (max-width:768px){
+    .main{
+        /* width: 22rem;   */
+     height: 59rem;
+     
+     
+    }
+    .inner-div {
+        width: 20rem;
+     height: 23rem; 
+     font-size: 12px;
+     /* margin-top: 10rem; */
+    }
+    .inner-div1{
+        width: 20rem;
+     height: 6rem; 
+     font-size: 12px;
+
+    }
+    .inner-div2{
+        width: 20rem;
+     height: 7rem; 
+     font-size: 12px;
+
+    }
+
+
+}
+
+   @media (max-width:992px){
+    .main{
+       
+         
+     
+        
+     height: 46rem;
+ 
+     /* width: 55rem; */
+     
+    
+     margin-top: 8rem;
+    }
+    .inner-div {
+       
+     height: 14rem;
+     /* width: 50rem;  */
+     font-size: 15px;
+    }
+    .inner-div1{
+       
+     height: 3rem; 
+     font-size: 13px;
+     
+     /* width: 50rem; */
+
+    }
+    .inner-div2{
+       
+     height: 7rem; 
+     font-size: 13px;
+     /* width: 50rem;  */
+
+    }
+
+}  
+
+
+@media (max-width:1200px){
+    .main{
+       
+       
+     
+        
+     height: 46rem;
+    
+     /* width: 59rem; */
+     
+    
+     margin-top: 8rem;
+    }
+    .inner-div {
+       
+     height: 14rem;
+     /* width: 56rem;  */
+     font-size: 15px;
+    }
+    .inner-div1{
+       
+     height: 4rem; 
+     font-size: 14px;
+     
+     /* width: 56rem; */
+
+    }
+    .inner-div2{
+       
+     height: 7rem; 
+     font-size: 13px;
+     /* width: 56rem;  */
+
+    }
+
+}  
+
+@media (max-width:2400px){
+    .main{
+       
+         
+     
+        
+     height: 52rem;
+    
+     
+    
+     margin-top: 13rem;
+    }
+    .inner-div {
+       
+     height: 14rem;
+    
+     font-size: 17px;
+    }
+    .inner-div1{
+       
+     height: 4rem; 
+     font-size: 17px;
+     
+   
+
+    }
+    .inner-div2{
+       
+     height: 9rem; 
+     font-size: 17px;
+   
+
+    }
+
+}   

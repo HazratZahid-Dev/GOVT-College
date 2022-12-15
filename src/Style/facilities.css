@@ -1,0 +1,54 @@
+
+.fa-imag{
+    margin-left: 2rem;
+    width: 41rem;
+    height: 19rem;
+     /* @apply w-96 h-96 mx-2  */
+}
+.fa-text{
+    margin-right: 2rem;
+    width: 35rem;
+    height: 20rem;
+    background-color: rgb(222, 222, 222);
+    padding: 15px;
+
+}
+
+.fa-image1{
+    margin-right: 2rem;
+    width: 41rem;
+    height: 20rem;
+
+}
+p{
+    letter-spacing: 1px;
+}
+h1{
+    letter-spacing: 2px;
+}
+
+.fa{
+    margin-left: 2rem;
+    width: 35rem;
+    height: 20rem;
+    background-color: rgb(222, 222, 222);
+    padding: 15px;
+
+}
+
+ @media (max-width:1200px){
+    
+    .fa-image{
+        margin-right: auto;
+        width: 20rem;
+        height: 15rem;
+
+    }
+    .fa-text{
+        margin-right: auto;
+        width: 20rem;
+        height: 15rem;
+
+    }
+
+} 

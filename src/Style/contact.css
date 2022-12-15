@@ -1,0 +1,15 @@
+.contact{
+    height: 20rem;
+    width: 70rem;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    margin-top: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 5px 15px;
+}
+.contact-d{
+    padding: 3rem;
+}
+.contact-p{
+    /* font-weight: bold;
+    font-size: 18px; */
+}

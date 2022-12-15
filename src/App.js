@@ -1,25 +1,59 @@
-import logo from './logo.svg';
+// import React, { useState } from 'react';
+import Nav from './Navbar';
+import Home from './Home';
+import Admission from './Admission';
+import Founder from './Founder';
+import Facilities from './Facilities';
+import Rules from './Rules';
+// import More from './More';
 import './App.css';
+import './index.css';
 
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contact from './Contact';
+
+
+    
+
+  
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    
+   
+      <Router>
+        <div>
+          <Nav />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/admin' element={<p>i am admin </p>} />
+          </Routes>
+          <Routes>
+            <Route path='/Admission' element={<Admission />} />
+          </Routes>
+          <Routes>
+            <Route path='Facilities' element={<Facilities />} />
+          </Routes>
+          <Routes>
+            <Route path='Rules' element={<Rules />} />
+          </Routes>
+          <Routes>
+          <Route path="/Founder" element={<Founder />} />
+          <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+      
+      
+ 
+    </>
+
   );
 }
+
 
 export default App;
